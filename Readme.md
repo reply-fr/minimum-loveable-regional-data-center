@@ -1,7 +1,3 @@
----
-marp: true
----
-
 # __Accor RVDC MLP__ 
 
 
