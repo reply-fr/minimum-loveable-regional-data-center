@@ -4,6 +4,9 @@ Feature: managing data located in RVDC
   I backup data located in RVDC
   so that data is protected from failures of the infrastructure
 
+  As an Accor Data Manager,
+  I restore data to RVDC
+  in order to respond to failures signaled by Accor Service Managers
 
 Scenario: where an Accor Data Manager protects RVDC data
   Given one "Accor Data Manager"
