@@ -7,7 +7,7 @@ Feature: enforcing compliance for RVDC services
 
 Scenario: where a  Compliance Engineer is extending corporate compliance controls to a RVDC
   Given one " Compliance Engineer"
-  When there is a need to put a tagging strategy  
+  When there is a need to put a tagging strategy
   Then Put a tagging a policy that doesn't allow to put personally identifiable information (PII) or other confidential or sensitive information in tags.
 
 
@@ -15,4 +15,3 @@ Scenario: where a  Compliance Engineer is extending corporate compliance control
   Given one " Compliance Engineer"
   When " Compliance Engineer" wants to define a role that forbid uploading data to S3 buckets without encryption
   Then Get a notifcation where there is any attempt to upload no Encrypted data to S3 Buckets
-
