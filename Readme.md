@@ -1,19 +1,19 @@
-# Accor Regional Virtual Data Center (RVDC) Minimum Loveable Product (MLP)
+# Minimum Loveable Regional Data Center
 
-In this repository we specify what is expected from the Accor Regional Virtual Data Centers (RVDC), and we document related architectural constructs.
+In this repository we specify what is expected from the Regional Data Centers (RVDC), and we document related architectural constructs.
 
 ## User Stories
 
-With User Stories we document requirements from various personas across the eco-system of Accor Hotels on the Regional Virtual Data Centers (RVDC). For example, the following user stories are in scope of the Accor Data Officer:
+With User Stories we document requirements from various personas across the eco-system of Regional Virtual Data Centers (RVDC). For example, the following user stories are in scope of the Data Officer:
 
 ```
-As an Accor Data Manager,
+As a Data Manager,
 I backup data located in RVDC
 so that data is protected from failures of the infrastructure
 
-As an Accor Data Manager,
+As a Data Manager,
 I restore data to RVDC
-in order to respond to failures signaled by Accor Service Managers
+in order to respond to failures signaled by Service Managers
 ```
 
 While a common approach of agile teams is to start software engineering from user stories, for this project we add an extra step with feature files.
@@ -23,8 +23,8 @@ While a common approach of agile teams is to start software engineering from use
 Feature files are based on [the Gherkin syntax](https://cucumber.io/docs/gherkin/reference/), that allows refinement of User Stories with testable statements. For example, following scenarios go deeper on previous user stories:
 
 ```
-Scenario: where an Accor Data Manager protects RVDC data
-  Given one "Accor Data Manager"
+Scenario: where a Data Manager protects RVDC data
+  Given one "Data Manager"
   When the daily backup window is starting
   Then a full copy of all virtual disks of a RVDC is made outside the RVDC VPC
    And an incremental copy of daily backup is done for "7 days"
