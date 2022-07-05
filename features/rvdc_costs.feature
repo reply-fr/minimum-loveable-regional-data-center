@@ -5,20 +5,36 @@ Feature: continuously optimising RVDC costs
   in order to analyze and optimize value for money of our information systems
 
   As a FinOps Engineer,
-  I want to detect deviations from budget consumption
+  I want to report precisely expenses incurred by cloud resources
+  in order to communicate to regions the costs of the resources that they use (show back)
+
+  As a FinOps Engineer,
+  I want to detect deviations from budget and consumption forecast
   in order to analyze unplanned events and prevent financial impact 
   
   As a FinOps Engineer,
-  I want to influence the software pipelines
-  in order to automate tagging, resource life cycle
-
+  I want to detect deviations from baseline
+  in order to analyze unexpected over- and under- consumptions and react appropriately 
+  
   As a FinOps Engineer,
   I need to assign budget owners to AWS accounts and cloud resources
   in order to involve as many employees as possible into FinOps
   
   As a FinOps Engineer,
+  I want to influence the software pipelines
+  in order to automate tagging and resource life cycle
+
+  As a FinOps Engineer,
   I can engage with corporate software development teams
   in order to include financial aspects into design decisions
+
+  As a FinOps Engineer,
+  I want to predict running costs of future services before they are deployed
+  in order to budget and plan the rollout and to sustain related costs
+  
+  As a FinOps Engineer,
+  I want to aggregate consumptions of cloud resources over one year and three years
+  in order to negociate discounts from AWS
 
 
 Scenario: where a  FinOps Engineer is extracting costs ad usage reports from RVDC
