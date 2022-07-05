@@ -9,6 +9,10 @@ Feature: continuously optimising RVDC costs
   in order to communicate to regions the costs of the resources that they use (show back)
 
   As a FinOps Engineer,
+  I want to report precisely shared expenses incurred by cloud resources
+  in order to split costs across regions according to their consumption (show back)
+
+  As a FinOps Engineer,
   I want to detect deviations from budget and consumption forecast
   in order to analyze unplanned events and prevent financial impact 
   
