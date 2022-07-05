@@ -14,7 +14,7 @@ Feature: managing shared services provided by RVDC
   in order to serve regional application teams directly
 
   As an Application Owner,
-  I want to interact closely with Migration Team selected by Accor,
+  I want to interact closely with Migration Team selected,
   in order to document each use case and to control user acceptance tests (UAT)
   
   As a Regional Technical Engineer (part of IT Ops),
